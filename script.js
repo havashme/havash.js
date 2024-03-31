@@ -1,6 +1,12 @@
 
 
- 
+ /**
+  * To push to git
+  * 1. open terminal
+  * 2. git add .
+  * 3. git commit -m "payam ro inja benevis"
+  * 4. git push origin main
+  */
 
 
 function helloWorld(){
