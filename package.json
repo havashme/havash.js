@@ -1,6 +1,6 @@
 {
   "name": "havash.js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A bunch of tools to help you better coding.",
   "main": "script.js",
   "scripts": {
