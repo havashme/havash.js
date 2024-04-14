@@ -13,13 +13,14 @@ function isPrime(number){
              return false;
     }
           return true;
-    function rangePrime(firstName , last){
+    function rangePrime(firstNum , lastNum){
         var result = [];
-            for(var i = firstName; i <= lastName; i++){
+            for(var i = firstNum; i <= lastNum; i++){
                  if(isPrime(i) == true)
                      result.push(i)
             }
               return result;
+        console.log(rangePrime(12 , 20));
         
 // nested object
 const person = {
