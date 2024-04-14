@@ -6,6 +6,21 @@
  * 4. git push origin main
  */
 
+// function isPrime 
+function isPrime(number){
+    for(var i = 2; i < number; i++){
+         if(number % i == 0)
+             return false;
+    }
+          return true;
+    function rangePrime(firstName , last){
+        var result = [];
+            for(var i = firstName; i <= lastName; i++){
+                 if(isPrime(i) == true)
+                     result.push(i)
+            }
+              return result;
+        
 // nested object
 const person = {
     firstName : "havash",
