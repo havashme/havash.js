@@ -20,7 +20,7 @@ function isPrime(number){
                      result.push(i)
             }
               return result;
-        console.log(rangePrime(12 , 20));
+        
         
 // nested object
 const person = {
