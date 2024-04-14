@@ -6,6 +6,21 @@
  * 4. git push origin main
  */
 
+// nested object
+const person = {
+    firstName : "havash",
+    lastName : "j b",
+      age   :  31,
+
+    coding : function(){
+        return "havash is coding ...";
+    },
+        grades : {
+           math : 14.5,
+           sport : 20,
+          gometry : 17
+        }
+}
 
 function helloWorld() {
     console.log("Hello World, My name is Havash.")
