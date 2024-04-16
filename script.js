@@ -6,6 +6,8 @@
  * 4. git push origin main
  */
 
+   // code =>
+let add = (num , num2) => console.log(num * num2); add(10 , 10);
 
 // function isPrime 
 function isPrime(number){
