@@ -6,6 +6,7 @@
  * 4. git push origin main
  */
 
+
 // function isPrime 
 function isPrime(number){
     for(var i = 2; i < number; i++){
